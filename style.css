@@ -1,0 +1,13 @@
+#header-column {
+  display: flex;
+  justify-content: center;
+}
+
+#asdf {
+  display: flex;
+}
+
+#image-column {
+  display: flex;
+  justify-content: center;
+}

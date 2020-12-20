@@ -1,13 +1,200 @@
+/*타이틀 글꼴*/
+@font-face {
+  font-family: "NEXONFootballGothicBA1";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicBA1.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*슬라이더 글꼴*/
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*슬라이더 글꼴 2*/
+@font-face {
+  font-family: "NEXONFootballGothicLA1";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicLA1.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 타이틀 */
 #header-column {
   display: flex;
   justify-content: center;
+  padding: 20px;
+  border-bottom: #dadada;
+  width: 100%;
+  -webkit-box-shadow: 0px 10px 11px 4px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 10px 11px 4px rgba(0, 0, 0, 0.09);
 }
-
-#asdf {
-  display: flex;
-}
-
-#image-column {
+#title-container {
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "NEXONFootballGothicBA1";
+  font-size: 25px;
+}
+
+.text {
+  font-family: "NEXON Lv1 Gothic OTF Light";
+}
+
+/* 설명 칸 */
+.description {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+/* 자세한 소개 */
+.summary {
+  font-family: "NEXON Lv1 Gothic OTF Light";
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-family: "NEXONFootballGothicLA1";
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.mySlides {
+  display: none;
+  height: 500px;
+  width: 100%;
+}
+img {
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+/* 슬라이드 */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  height: 500px;
+  -webkit-box-shadow: 0px 17px 11px -7px rgba(0, 0, 0, 0.34);
+  box-shadow: 0px 17px 11px -7px rgba(0, 0, 0, 0.34);
+}
+
+/* 다음 이전 버튼 */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* 오른쪽 다음 버튼 */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* 올렸을때 색변화 */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* 글자 */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* 숫자 */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* 점 */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* 페이딩 애니메이션 */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* 작은화면에선 글씨 작게 만듬 */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
 }

@@ -218,6 +218,7 @@ img {
   display: flex;
 }
 
+/* 부서 한칸 */
 .department {
   width: 200px;
   height: 330px;
@@ -227,6 +228,7 @@ img {
   margin-left: 27px;
 }
 
+/* 부서 이미지 */
 .department-image {
   width: 200px;
   height: 210px;
@@ -238,9 +240,15 @@ img {
   margin-left: 30px;
 }
 
+/* 부서 설명 */
 .department-summary {
   margin-left: 7px;
   font-family: "NEXON Lv1 Gothic OTF Light";
   opacity: 0.4;
   margin-top: 13px;
+}
+
+#introduce-column {
+  margin-top: 200px;
+  margin-left: 30px;
 }

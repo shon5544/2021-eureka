@@ -1,0 +1,48 @@
+/*타이틀 글꼴*/
+@font-face {
+  font-family: "NEXONFootballGothicBA1";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicBA1.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*h1글꼴*/
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF Light";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Light.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*일반 글꼴*/
+@font-face {
+  font-family: "NEXONFootballGothicLA1";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicLA1.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 타이틀 */
+#header-column {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-bottom: #dadada;
+  width: 100%;
+  -webkit-box-shadow: 0px 10px 11px 4px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 10px 11px 4px rgba(0, 0, 0, 0.09);
+}
+#title-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "NEXONFootballGothicBA1";
+  font-size: 25px;
+}

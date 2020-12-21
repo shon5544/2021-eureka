@@ -57,7 +57,7 @@
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 300px;
+  bottom: 220px;
   width: 100%;
   text-align: center;
 }
@@ -79,6 +79,18 @@ h1 {
 body {
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*부서 이름*/
+.department-title {
+  font-family: "NEXONFootballGothicLA1";
+  margin-left: 7px;
+}
+
 .mySlides {
   display: none;
   height: 500px;
@@ -197,4 +209,38 @@ img {
   .text {
     font-size: 11px;
   }
+}
+
+/* 부서 링크 */
+#department-column {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+.department {
+  width: 200px;
+  height: 330px;
+  margin: 0px;
+  border: 1px solid #dadada;
+  border-radius: 6px;
+  margin-left: 27px;
+}
+
+.department-image {
+  width: 200px;
+  height: 210px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#list {
+  margin-left: 30px;
+}
+
+.department-summary {
+  margin-left: 7px;
+  font-family: "NEXON Lv1 Gothic OTF Light";
+  opacity: 0.4;
+  margin-top: 13px;
 }

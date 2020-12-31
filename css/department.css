@@ -121,7 +121,7 @@
   position: relative;
   z-index: 1;
   animation-name: move2;
-  animation-duration: 8s;
+  animation-duration: 3s;
   animation-timing-function: cubic-bezier(0.2, -2, 0.8, 2);
 }
 

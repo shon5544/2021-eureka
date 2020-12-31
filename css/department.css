@@ -48,3 +48,324 @@
 }
 
 /*여기서부터 작업 시작*/
+/*민국*/
+@font-face {
+  font-family: "TmoneyRoundWindExtraBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#me {
+  background-color: #fdcf08;
+  display: flex;
+  color: black;
+  font-family: "NEXONFootballGothicBA1";
+  font-size: 40px;
+  height: 700px;
+  -webkit-box-shadow: 5px 12px 11px -1px rgba(0, 0, 0, 0.69);
+  box-shadow: 5px 12px 11px -1px rgba(0, 0, 0, 0.69);
+}
+
+#container {
+  height: 100%;
+}
+
+@keyframes move {
+  0% {
+    top: 400px;
+    opacity: 0;
+  }
+  100% {
+    top: 300px;
+    opacity: 1;
+  }
+}
+
+#we {
+  top: 300px;
+  position: relative;
+  animation-name: move;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+
+#img {
+  widows: 700px;
+  height: 700px;
+  left: 0px;
+}
+
+#img2 {
+  width: 100%;
+  opacity: 0.6;
+  position: relative;
+  -webkit-box-shadow: 5px 12px 11px -1px rgba(0, 0, 0, 0.69);
+  box-shadow: 5px 12px 11px -1px rgba(0, 0, 0, 0.69);
+}
+
+#you {
+  color: black;
+  text-align: center;
+}
+
+#word {
+  height: 100%;
+}
+
+#our {
+  font-family: "NEXONFootballGothicBA1";
+  font-size: 80px;
+  top: 600px;
+  position: relative;
+  z-index: 1;
+  animation-name: move2;
+  animation-duration: 8s;
+  animation-timing-function: cubic-bezier(0.2, -2, 0.8, 2);
+}
+
+@keyframes move2 {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#he {
+  display: flex;
+  font-family: "TmoneyRoundWindExtraBold";
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  height: 100%;
+}
+
+#her {
+  font-size: 50px;
+}
+
+#him {
+  font-size: 50px;
+  color: crimson;
+}
+/*민국*/
+
+/*수찬*/
+/*여기서부터 작업 시작*/
+.이미지 {
+  filter: brightness(40%);
+  width: 100%;
+  height: 550px;
+  margin-bottom: 20px;
+  /* -webkit-box-shadow: 4px 5px 8px 5px rgba(0, 0, 0, 0.5); */
+  /* box-shadow: 4px 5px 8px 5px rgba(0, 0, 0, 0.5); */
+}
+.이미지2 {
+  filter: brightness(40%);
+  width: 100%;
+  height: 450px;
+  margin-bottom: 20px;
+  /* -webkit-box-shadow: 13px 10px 17px 7px rgba(0, 0, 0, 0.87); */
+  /* box-shadow: 13px 10px 17px 7px rgba(0, 0, 0, 0.87); */
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.image-container {
+  -webkit-box-shadow: 1px 15px 15px 7px rgba(0, 0, 0, 0.44);
+  box-shadow: 1px 15px 15px 7px rgba(0, 0, 0, 0.44);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  height: 500px;
+  margin-bottom: 60px;
+}
+.글씨 {
+  position: absolute;
+  font-size: 90px;
+  width: 100%;
+  text-align: center;
+  top: 100px;
+  color: white;
+  font-family: "NEXONFootballGothicLA1";
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+.소개글 {
+  position: absolute;
+  font-size: 60px;
+  bottom: 250px;
+  width: 100%;
+  color: white;
+  font-family: "NEXONFootballGothicLA1";
+  animation-name: 소개글;
+  animation-duration: 1.5s;
+  text-align: center;
+}
+.설명 {
+  background-color: black;
+  height: 80px;
+  font-family: "NEXONFootballGothicLA1";
+  color: yellow;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.멘트 {
+  position: absolute;
+  top: -390px;
+  color: white;
+  font-size: 45px;
+  font-family: "NEXONFootballGothicLA1";
+  width: 100%;
+  text-align: center;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes 소개글 {
+  0% {
+    opacity: 0;
+    bottom: 180px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 250px;
+  }
+}
+/*화학*/
+.화학 {
+  position: absolute;
+  font-size: 50px;
+  top: 100px;
+  left: 50px;
+  color: rgb(0, 0, 0);
+  font-family: "NEXONFootballGothicLA1";
+
+  animation-name: 화학;
+  animation-duration: 2s;
+}
+#화학2 {
+  position: absolute;
+  font-size: 80px;
+  top: 250px;
+  width: 100%;
+  text-align: center;
+  color: blue;
+  font-family: "NEXONFootballGothicLA1";
+  animation-name: 화학2;
+  animation-duration: 3s;
+}
+.화이미지 {
+  width: 100%;
+  height: 500px;
+  opacity: 0.5;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.73);
+  box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.73);
+}
+.손해 {
+  position: absolute;
+  bottom: 160px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-family: "NEXONFootballGothicLA1";
+}
+.소제목 {
+  margin-top: 1px;
+  font-size: 60px;
+  font-family: "NEXONFootballGothicLA1";
+  margin-left: 13px;
+  border-bottom: solid;
+  border-bottom-left-radius: 10px;
+  border-color: blue;
+  top: -80px;
+}
+.화이미지2 {
+  margin-left: 900px;
+  height: 501px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  position: absolute;
+}
+.박스 {
+  position: relative;
+  border: solid;
+  border-width: 2px;
+  padding: 12px;
+  word-break: break-all;
+
+  width: 900px;
+  height: 477px;
+  border: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.설명글 {
+  position: absolute;
+  top: -340px;
+  font-size: 45px;
+  font-family: "NEXONFootballGothicLA1";
+  left: 50px;
+  color: white;
+}
+.relative {
+  position: relative;
+}
+
+@keyframes 화학 {
+  0% {
+    opacity: 0;
+    left: 1px;
+  }
+  100% {
+    opacity: 1;
+    left: 50px;
+  }
+}
+@keyframes 화학2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+/*수찬*/

@@ -268,7 +268,7 @@ img {
 
 .introduce-detail {
   display: flex;
-  margin-left: 200px;
+  justify-content: center;
 }
 
 .introduce-sum {
